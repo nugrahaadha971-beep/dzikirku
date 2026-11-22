@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Amiri", "Scheherazade New",
+    "Traditional Arabic", "Geeza Pro", serif;
+
+  /*
+   * Palet terang sesuai mockup DzikirKu. Nama kelas Tailwind tidak berubah,
+   * hanya nilainya: skala slate dibalik (gelap menjadi terang), dan emerald
+   * disetel ke hijau merek.
+   */
+  --color-slate-50: #0f1f1a;
+  --color-slate-100: #14231e;
+  --color-slate-200: #1f2d28;
+  --color-slate-300: #34463f;
+  --color-slate-400: #5f6e69;
+  --color-slate-500: #7a8a84;
+  --color-slate-600: #a9b8b2;
+  --color-slate-700: #d5e3dd;
+  --color-slate-800: #eaf2ee;
+  --color-slate-900: #f4f9f7;
+  --color-slate-950: #ffffff;
+
+  --color-emerald-200: #9ed8c6;
+  --color-emerald-300: #0f6e56;
+  --color-emerald-400: #17866b;
+  --color-emerald-500: #17866b;
+  --color-emerald-700: #0f6e56;
+  --color-amber-300: #8a5a12;
+  --color-sky-300: #17866b;
+  --color-sky-400: #17866b;
+  --color-rose-200: #9f1239;
+  --color-rose-300: #be123c;
+}
+
+html {
+  color-scheme: light;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #14231e;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
